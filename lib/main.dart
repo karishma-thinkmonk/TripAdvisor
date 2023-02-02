@@ -1,19 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tripdetail/Screen/hotel_list_screen.dart';
 
 void main() {
   runApp(const HomeScreen());
-}
-
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
 }
