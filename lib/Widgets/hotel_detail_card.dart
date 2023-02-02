@@ -30,6 +30,30 @@ class DetailsCard extends StatelessWidget {
             Text(
               "Hotle name",
               style: TextStyle(fontSize: 18, color: CustomColors.hotelname),
+            ),
+            Text(
+              "Location",
+              style: TextStyle(fontSize: 18, color: CustomColors.hotelname),
+            ),
+            Row(
+              children: [
+                const Text(
+                  "From",
+                  style: TextStyle(fontSize: 18, color: Colors.red),
+                ),
+                Text(
+                  "rate in Usd",
+                  style: TextStyle(fontSize: 18, color: CustomColors.hotelname),
+                ),
+                ElevatedButton(
+                    style:
+                        ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                    onPressed: null,
+                    child: Text(
+                      "Available",
+                      style: TextStyle(fontSize: 18, color: Colors.white),
+                    ))
+              ],
             )
           ],
         )
