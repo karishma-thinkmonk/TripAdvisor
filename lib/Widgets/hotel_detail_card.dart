@@ -23,9 +23,7 @@ class DetailsCard extends StatelessWidget {
                 Icons.star,
                 color: CustomColors.hotelname,
               ),
-              onRatingUpdate: (rating) {
-                print(rating);
-              },
+              onRatingUpdate: (rating) {},
             ),
             Text(
               "Hotle name",
@@ -49,7 +47,7 @@ class DetailsCard extends StatelessWidget {
                     style:
                         ElevatedButton.styleFrom(backgroundColor: Colors.green),
                     onPressed: null,
-                    child: Text(
+                    child: const Text(
                       "Available",
                       style: TextStyle(fontSize: 18, color: Colors.white),
                     ))
